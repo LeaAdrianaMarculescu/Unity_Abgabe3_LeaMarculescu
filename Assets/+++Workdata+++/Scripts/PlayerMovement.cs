@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
   public void InitiateMochiDialogBox()
   {
-    if (Mochi.canBeInteracted == true && DialogBox.activeSelf)
+    if (Mochi.canBeInteracted == true && DialogBox.activeSelf == false)
     {
       canMove = false;
       rb.linearVelocity = Vector2.zero;

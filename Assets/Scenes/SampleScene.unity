@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 252898938}
   - component: {fileID: 252898937}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 252898938}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 349032846}
+        m_TargetAssemblyTypeName: DialogM, Assembly-CSharp
+        m_MethodName: ChoiceFour
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &252898938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,14 +284,14 @@ MonoBehaviour:
   inkAsset: {fileID: 4900000, guid: 4d4523ef176aa3d418c12f6a2ca505c6, type: 3}
   DialougeBox: {fileID: 1141103146}
   dialougeText: {fileID: 1387589994}
-  ChoiceOneButton: {fileID: 0}
-  ChoiceTwoButton: {fileID: 0}
-  ChoiceThreeButton: {fileID: 0}
-  ChoiceFourButton: {fileID: 0}
-  choiceOneText: {fileID: 0}
-  choiceTwoText: {fileID: 0}
-  choiceThreeText: {fileID: 0}
-  choiceFourText: {fileID: 0}
+  ChoiceOneButton: {fileID: 1966015735}
+  ChoiceTwoButton: {fileID: 1444837466}
+  ChoiceThreeButton: {fileID: 1785756250}
+  ChoiceFourButton: {fileID: 252898935}
+  choiceOneText: {fileID: 484708253}
+  choiceTwoText: {fileID: 1182849905}
+  choiceThreeText: {fileID: 2030918925}
+  choiceFourText: {fileID: 720084954}
 --- !u!4 &349032847
 Transform:
   m_ObjectHideFlags: 0
@@ -1825,7 +1837,7 @@ GameObject:
   - component: {fileID: 1444837469}
   - component: {fileID: 1444837468}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1894,7 +1906,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1444837469}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 349032846}
+        m_TargetAssemblyTypeName: DialogM, Assembly-CSharp
+        m_MethodName: ChoiceTwo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1444837469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,7 +1970,7 @@ GameObject:
   - component: {fileID: 1785756253}
   - component: {fileID: 1785756252}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2015,7 +2039,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1785756253}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 349032846}
+        m_TargetAssemblyTypeName: DialogM, Assembly-CSharp
+        m_MethodName: ChoiceThree
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1785756253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2135,7 +2171,7 @@ GameObject:
   - component: {fileID: 1966015738}
   - component: {fileID: 1966015737}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2204,7 +2240,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1966015738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 349032846}
+        m_TargetAssemblyTypeName: DialogM, Assembly-CSharp
+        m_MethodName: ChoiceOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1966015738
 MonoBehaviour:
   m_ObjectHideFlags: 0

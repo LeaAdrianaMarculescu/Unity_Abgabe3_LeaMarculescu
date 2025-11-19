@@ -29,7 +29,6 @@ public class DialogM : MonoBehaviour
     private void Start()
     {
         DialougeBox.SetActive(false);
-        InkStoryContinue();
     }
 
     private void Update()
